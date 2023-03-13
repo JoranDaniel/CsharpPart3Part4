@@ -1,27 +1,14 @@
 using System;
 
-class LoginProgram
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        string username, password;
-
-        Console.Write("Enter your username: ");
-        username = Console.ReadLine();
-
-        Console.Write("Enter your password: ");
-        password = Console.ReadLine();
-
-        if ((username == "alex" && password == "sunshine") ||
-            (username == "emma" && password == "haskell"))
+        string line;
+        while ((line = Console.ReadLine()) != "")
         {
-            Console.WriteLine("Login successful.");
+            string[] words = line.Split(' ');
+            Console.WriteLine(words[words.Length - 1]);
         }
-        else
-        {
-            Console.WriteLine("Incorrect username or password.");
-        }
-
-        Console.ReadLine();
     }
 }
