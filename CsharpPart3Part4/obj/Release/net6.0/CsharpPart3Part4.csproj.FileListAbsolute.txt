@@ -3,3 +3,13 @@ C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\
 C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.AssemblyInfoInputs.cache
 C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.AssemblyInfo.cs
 C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.csproj.CoreCompileInputs.cache
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\bin\Release\net6.0\CsharpPart3Part4.exe
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\bin\Release\net6.0\CsharpPart3Part4.deps.json
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\bin\Release\net6.0\CsharpPart3Part4.runtimeconfig.json
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\bin\Release\net6.0\CsharpPart3Part4.dll
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\bin\Release\net6.0\CsharpPart3Part4.pdb
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.dll
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\refint\CsharpPart3Part4.dll
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.pdb
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\CsharpPart3Part4.genruntimeconfig.cache
+C:\Users\joran\OneDrive\Documenten\GitHub\CsharpPart3Part4\CsharpPart3Part4\obj\Release\net6.0\ref\CsharpPart3Part4.dll
