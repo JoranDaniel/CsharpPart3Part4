@@ -9,7 +9,7 @@ class Program
 
         while (true)
         {
-            Console.Write("Vul je naam in (of druk op enter om te stoppen): ");
+            Console.Write("Vul je naam in: ");
             name = Console.ReadLine();
 
             if (string.IsNullOrEmpty(name))
@@ -29,11 +29,11 @@ class Program
 
         if (string.IsNullOrEmpty(oldestName))
         {
-            Console.WriteLine("Er zijn geen namen ingevoerd.");
+            Console.WriteLine("Er zijn geen namen of leeftijden ingevoerd.");
         }
         else
         {
-            Console.WriteLine("Naam van de oudste persoon: " + oldestName);
+            Console.WriteLine("Leeftijd van het oudste persoon: " + oldestAge);
         }
 
         Console.WriteLine("Druk op een toets om af te sluiten.");
