@@ -1,10 +1,21 @@
 using System;
 
-namespace exercise_95
-
-public class dog
+class MainClass
 {
-    private string name;
-    private string breed;
-    private int age;
-};
+    public static void Main(string[] args)
+    {
+        int count = 0;
+        string input = "";
+
+        while (input != "end")
+        {
+            input = Console.ReadLine();
+            if (input != "end")
+            {
+                count++;
+            }
+        }
+
+        Console.WriteLine(count);
+    }
+}
