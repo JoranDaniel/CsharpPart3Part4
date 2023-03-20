@@ -16,7 +16,7 @@ class Program
             {
                 int num = int.Parse(input);
                 int uitkomst = num * num * num;
-                Console.WriteLine($"de uitkomst van 4-23 is {uitkomst}");
+                Console.WriteLine($"de uitkomst van 4-23_v2 is {uitkomst}");
             }
         }
 
