@@ -1,86 +1,25 @@
+//4-23
 using System;
-
-class MainClass
-{
-    public static void Main(string[] args)
-    {
-        int count = 0;
-        string input = "";
-
-        while (input != "end")
-        {
-            input = Console.ReadLine();
-            if (input != "end")
-            {
-                count++;
-            }
-        }
-
-        Console.WriteLine(count);
-    }
-}
-using System;
-using System.Collections.Generic;
-
-class Book
-{
-    public string Title { get; set; }
-    public int Pages { get; set; }
-    public int PublicationYear { get; set; }
-}
 
 class Program
 {
     static void Main(string[] args)
     {
-        List<Book> books = new List<Book>();
+        string input = "";
 
-        // Read book information from user
-        while (true)
+        while (input != "end")
         {
-            Console.Write("Name: ");
-            string title = Console.ReadLine();
+            Console.Write("geef een nummer of schrijf 'end' om te stoppen ");
+            input = Console.ReadLine();
 
-            if (string.IsNullOrEmpty(title))
+            if (input != "end")
             {
-                break;
-            }
-
-            Console.Write("Pages: ");
-            int pages = int.Parse(Console.ReadLine());
-
-            Console.Write("Publication year: ");
-            int publicationYear = int.Parse(Console.ReadLine());
-
-            Book book = new Book
-            {
-                Title = title,
-                Pages = pages,
-                PublicationYear = publicationYear
-            };
-
-            books.Add(book);
-        }
-
-        // Ask user what to print
-        Console.Write("What information will be printed? ");
-        string input = Console.ReadLine();
-
-        if (input == "everything")
-        {
-            // Print all book details
-            foreach (Book book in books)
-            {
-                Console.WriteLine("{0}, {1} pages, {2}", book.Title, book.Pages, book.PublicationYear);
+                int num = int.Parse(input);
+                int uitkomst = num * num * num;
+                Console.WriteLine($"de uitkomst van 4-23 is {uitkomst}");
             }
         }
-        else if (input == "title")
-        {
-            // Print only book titles
-            foreach (Book book in books)
-            {
-                Console.WriteLine(book.Title);
-            }
-        }
+
+        Console.WriteLine("afsluiten die handel");
     }
 }
