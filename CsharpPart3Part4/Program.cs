@@ -1,25 +1,46 @@
-//4-23
 using System;
+using System.IO;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        string input = "";
+        string[] names = File.ReadAllLines("C:\\Users\\joran\\OneDrive\\Documenten\\ROC Nijmegen\\Vakken\\C#\\ConsoleApp2\\ConsoleApp2\\guestlist.txt");
 
-        while (input != "end")
+        Console.WriteLine("Enter names, an empty line quits.");
+
+        while (true)
         {
-            Console.Write("geef een nummer of schrijf 'end' om te stoppen ");
-            input = Console.ReadLine();
+            Console.Write("> ");
+            string name = Console.ReadLine().Trim();
 
-            if (input != "end")
+            if (name == "")
+                if (name == "")
+                {
+                    break;
+                }
+
+            bool onList = false;
+
+            foreach (string guestName in names)
             {
-                int num = int.Parse(input);
-                int uitkomst = num * num * num;
-                Console.WriteLine($"de uitkomst van 4-23_v2 is {uitkomst}");
+                if (guestName.ToLower() == name.ToLower())
+                {
+                    onList = true;
+                    break;
+                }
+            }
+
+            if (onList)
+            {
+                Console.WriteLine("The name is on the list.");
+            }
+            else
+            {
+                Console.WriteLine("The name is not on the list.");
             }
         }
 
-        Console.WriteLine("afsluiten die handel");
+        Console.WriteLine("\nThank you!");
     }
 }
